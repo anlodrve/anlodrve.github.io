@@ -1,14 +1,143 @@
 body {
-  background-color: #444444;
-  color: #dddddd;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 20%;
+  background-color: #FDE5DC;
+  color: #1F5656;
+  font-family: Tahoma, Helvetica, sans-serif;
+  margin: 1-% 20%;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3px; 
+  margin-top: 100px; 
+  
+}
+
+.name {
+  font-family: Tahoma, Helvetica, sans-serif;
+  font-size: 100px; 
+    
+}
+
+  
+.grid-container {
+  display: grid;
+  column-gap: 10px;
+  margin-left: 20px; 
+  margin-right: 20px; 
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.statement {
+  grid-row-start: 1;
+  font-size: 15px; 
+  padding-top: 50px;
+  margin-top: 50px; 
+  margin-left: 20px;  
+}
+
+.headshot {
+  grid-row-start: 1;
+  grid-column-start: 2; 
+}
+
+img {
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 5px solid #555;
+}
+  
+.navbar {
+  grid-row-start: 2; 
+  grid-column-start: 1;
+  overflow: hidden;
+  background-color: #E6C3BE;
+  font-family: Tahoma;
+  text-align: center;
+  padding-left: 0px; 
+  margin-left: 40px; 
+  margin-right: 40px;  
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: wavy;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 30;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #D0A70C;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFF1EF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #133636;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .exp-header {
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0, 0.1)
+  border-top: 20px solid #5C7F7B;
+  background-color: #E6C3BE;
+  padding-bottom: 20px; 
+  margin-top: 20px; 
+  margin-left: 10px; 
+  margin-right: 10px; 
+}
+
+.jobs {
+  margin-top: 10px; 
+  line-height: 1;
+  background-color: #FFF1EF;
+  color: #306A6B;
+  border: 2px solid #CE9D96;
+  margin: 30px;
+  padding: 20px;
+}
+
+.college {
+  margin-left: 40px; 
 }
